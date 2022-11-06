@@ -1,0 +1,17 @@
+{
+    "name": "tic-tac-toe",
+    "version": "2.0.0",
+    "description": "",
+    "homepage": "https://github.com/EwelinaManiecka/tic-tac-toe/",
+    "scripts": {
+      "start": "parcel src/*.html",
+      "build": "parcel build src/*.html --public-url /tic-tac-toe/"
+    },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}

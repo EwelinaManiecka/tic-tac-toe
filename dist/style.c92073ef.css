@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.board__item {
+  width: 100px;
+  height: 100px;
+  background-color: #7fffd4;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.c92073ef.css.map */
