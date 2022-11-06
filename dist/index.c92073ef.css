@@ -15,6 +15,13 @@ body {
   display: flex;
 }
 
+.name {
+  border-color: azure;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 10px;
+}
+
 .board {
   grid-gap: 10px;
   border: 2px solid #5f6165;

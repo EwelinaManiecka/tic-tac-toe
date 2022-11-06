@@ -15,6 +15,13 @@ body {
     justify-content: center;
 }
 
+.name {
+    border-radius: 5px;
+    border-color: azure;
+    margin: 0 10px;
+    padding: 10px;
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
