@@ -9,17 +9,27 @@ body {
   font-family: Georgia, Times New Roman, Times, serif;
 }
 
-.title {
+.heading {
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
   display: flex;
 }
 
+.title {
+  justify-content: center;
+  display: flex;
+}
+
 .name {
+  text-align: center;
   border-color: azure;
   border-radius: 5px;
   margin: 0 10px;
   padding: 10px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 20px;
 }
 
 .board {

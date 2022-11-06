@@ -9,8 +9,15 @@ body {
     background-color: rgb(222, 221, 221);
 }
 
-.title {
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
+    flex-direction: column;
+}
+
+.title {
     display: flex;
     justify-content: center;
 }
@@ -20,6 +27,9 @@ body {
     border-color: azure;
     margin: 0 10px;
     padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 .board {
